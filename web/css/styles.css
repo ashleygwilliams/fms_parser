@@ -85,7 +85,7 @@ canvas {
 nav{
   position: fixed;
   left: 40px;
-  top:110px;
+  top:120px;
   z-index: 0;
   display: none;
 }
@@ -121,7 +121,7 @@ h3 {
   color: black;
   text-transform: uppercase;
   border: 3px solid;
-  padding: 0.5em 0.75em;
+  /* padding: 0.5em 0.75em; */
   -moz-box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
   -webkit-box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
@@ -135,9 +135,14 @@ h3 {
 .nav-item{
   display: block;
 }
+.btn a {
+  display: block;
+  padding: 0.5em 0.75em;
+}
 a {
   text-decoration: none;
   color: black;
+  padding: 0.5em 0.75em;
 }
 .btn:active {
   -moz-box-shadow: 0px 0px 0px 0px;
@@ -151,6 +156,10 @@ a {
   color: black;
 }
 #logo {
+  margin: 0;
+  padding: 0;
+}
+#logo a {
   margin: 0;
   padding: 0;
 }
